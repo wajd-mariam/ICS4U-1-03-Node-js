@@ -27,7 +27,7 @@ rl.question('Enter the mass of an object in kg:', (massObject) => {
   // output
   console.log(``);
   console.log(`The energy released from the object is ${energyCreated} Joules.`);
-  console.log(`This energy is equivalent to ${numberOfBombs}  kilton bomb.`);
+  console.log(`This energy is equivalent to ${numberOfBombs} bombs.`);
 
   rl.close();
 });
