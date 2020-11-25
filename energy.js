@@ -15,11 +15,12 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
-// Declaring the constant C
+  // Declaring the constant C
   const C = 2.998 * (10**8);
   
-// input
+  // input
 rl.question('Enter the mass of an object in kg:', (massObject) => {
+ 
   // process
  var energyCreated = (massObject * (C**2));
  var numberOfBombs = energyCreated / (4 * 10**12);
