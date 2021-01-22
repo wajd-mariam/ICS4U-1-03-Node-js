@@ -1,5 +1,4 @@
 /**
- * Copyright (c) 2020
  *
  * This program calculates the amount of energy released 
  * by an object given its mass.
